@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class main {
+
+	public static void main(String[] args) {
+	Scanner ler = new Scanner(System.in);
+	int X = ler.nextInt();
+	
+	for (int i = 0; i <= X; i++) {
+		if(i % 2 != 0) {
+			System.out.println(i);
+			
+		ler.close();
+		}
+	}
+	}
+
+}
